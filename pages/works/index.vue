@@ -3,7 +3,7 @@
     <div>
       <div class="links">
         <nuxt-link
-          to="/works/privacypolicy"
+          to="/works/wanago/privacypolicy"
           class="button--green">Wanago</nuxt-link>
       </div>
   </div></section>
