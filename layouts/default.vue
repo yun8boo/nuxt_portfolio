@@ -1,5 +1,19 @@
 <template>
   <div>
+    <ul class="header">
+      <nuxt-link 
+        link-active-class 
+        class="header-list"
+        to="/" >yun8boo</nuxt-link>
+      <nuxt-link 
+        link-active-class 
+        class="header-list"
+        to="/about" >about</nuxt-link>
+      <nuxt-link 
+        link-active-class
+        class="header-list"
+        to="/works">works</nuxt-link>
+    </ul>
     <nuxt/>
   </div>
 </template>
@@ -22,6 +36,18 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.header {
+  display: flex;
+  list-style: none;
+  position: fixed;
+  padding: 0;
+  width: 100%;
+}
+
+.header-list {
+  text-decoration: none;
 }
 
 .button--green {
